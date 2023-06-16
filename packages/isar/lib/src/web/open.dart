@@ -23,7 +23,8 @@ Future<void> initializeIsarWeb([String? jsUrl]) async {
   final script = ScriptElement();
   script.type = 'text/javascript';
   // ignore: unsafe_html
-  script.src = 'https://unpkg.com/isar@${Isar.version}/dist/index.js';
+  //script.src = 'https://unpkg.com/isar@${Isar.version}/dist/index.js';
+  script.src = 'https://unpkg.com/isar@2.5.1'; // force the last known version
   script.async = true;
   document.head!.append(script);
   await script.onLoad.first.timeout(
