@@ -1,7 +1,7 @@
 // ignore_for_file: public_member_api_docs, invalid_use_of_protected_member
 
 import 'dart:html';
-//import 'dart:js_util';
+import 'dart:js_util';
 
 import 'package:isar/isar.dart';
 import 'package:isar/src/common/schemas.dart';
